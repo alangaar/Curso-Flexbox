@@ -1,0 +1,45 @@
+body {
+    /* margin: 0;*/
+    font-size: 4rem;
+    font-family: sans-serif;
+    background-color: #1d1818;
+}
+
+.flex-container {
+    background-color: #404040;
+    border-radius: 10px;
+    border: solid 2px yellow;
+}
+
+.flex-container > * {
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background: #f18c55;
+}
+
+/*align-items: stretch es el estado por 
+defecto pero en este caso lo escribo para
+ el ejemplo,esta propiedad hace que los elementos ocupen todo el 
+ alto o todo el alto definido si esta definido un alto */
+.flex-container{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+/*Aqui el alto definido para el primer div
+es 100px por lo que la propiedad de align-items: flex-start
+ ocupa todo el alto definido, en este caso todos los 100px de altura*/
+ .one{
+    height: 100px;
+}
+
+.two{
+    height: 250px;
+}
