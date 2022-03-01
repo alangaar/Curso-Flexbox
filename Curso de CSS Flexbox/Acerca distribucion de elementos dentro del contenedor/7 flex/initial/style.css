@@ -1,0 +1,49 @@
+body {
+    /* margin: 0;*/
+    font-size: 4rem;
+    font-family: sans-serif;
+    background-color: #1d1818;
+}
+
+.flex-container {
+    background-color: #404040;
+ /*   border-radius: 10px;
+    border: solid 2px yellow;*/
+}
+
+.flex-container > * {
+  /*  padding: 10px;
+    margin: 10px;
+    border: solid 1px black;*/
+    border-radius: 10px;
+    background: #f18c55;
+}
+
+.flex-container {
+    height: 500px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+   
+}
+
+/*al ponerle un flex-shrink: 2 al segundo elemento
+significa que se encojera 2 veces mas que los otros elementos*/
+.one {
+    height: 100px;
+    width: 200px;
+    flex: initial; /*tendria los valores por defecto 0 1 auto*/
+}
+
+.two {
+    height: 100px;
+    width: 200px;
+
+}
+
+.three {
+    height: 100px; 
+    width: 200px; 
+
+}
