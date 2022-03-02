@@ -1,0 +1,4 @@
+Este proyecto es una gui de CSS FLEXBOX,
+representa las propiedades mas usadas 
+por lo que en si misma esta guia es y representa
+una obra maestra de gran apoyo.  
